@@ -1,0 +1,160 @@
+{
+  "quiz": [
+    {
+      "number": "01",
+      "taglines": [
+        "",
+        ""
+      ],
+      "question": "¿Tienes Book Fotográfico?",
+      "answers": [
+        "Tengo el Students Book del Bachillerato",
+        "¿El álbum de fotos del verano de 2002 sirve?",
+        "Sí, yo tengo de todo"
+      ]
+    },
+    {
+      "number": "02",
+      "taglines": [
+        "",
+        "Ya sabes, por si tienes que ir a Hollywood como yo."
+      ],
+      "question": "¿Te manejas con el inglés?",
+      "answers": [
+        "Tengo el B2 y muchísima proyección internacional",
+        "Con signos se me entiende perfectamente",
+        "No, pero tengo una vocalización de 10"
+      ]
+    },
+    {
+      "number": "03",
+      "taglines": [
+        "",
+        "¿Tener 10.000 followers o salir en el Pasapalabra 2 minutos?"
+      ],
+      "question": "¿Qué crees que es más importante?",
+      "answers": [
+        "Los likes son mi vida",
+        "Los followers no te llevan a la gran pantalla, Pasapalabra sí",
+        "Ir a ese programa para qué"
+      ]
+    },
+    {
+      "number": "04",
+      "taglines": [
+        "",
+        "Los cursitos sirven."
+      ],
+      "question": "¿Cosas para la tele has hecho?",
+      "answers": [
+        "Subo mis dramas en Stories",
+        "Casi salgo en Las Chicas del Cable como actor tercercundario",
+        "Sí, he hecho cursos de Word"
+      ]
+    },
+    {
+      "number": "05",
+      "taglines": [
+        "",
+        "Que alguno tendrás, digo yo."
+      ],
+      "question": "¿Y qué talento especial tienes?",
+      "answers": [
+        "Yo soy brillante en drama, excepcional en comedia y sé cantar y sé bailar",
+        "Lloro en cualquier momento",
+        "Palmeo un melón y sé si es bueno"
+      ]
+    },
+    {
+      "number": "06",
+      "taglines": [
+        "",
+        ""
+      ],
+      "question": "¿Tienes contactos buenos y anécdotas que contarme?",
+      "answers": [
+        "Mi vida es un muermo",
+        "Tú dime un nombre y te cuento una anécdota",
+        "Una vez me dio like un famoso en Twitter, ¿eso sirve?"
+      ]
+    },{
+      "number": "07",
+      "taglines": [
+        "Como sabrás, los nombres deben tener un push, un poco de glamour.",
+        "Ya sabes, Ricky Martin se llamaba Enrique y míralo ahora."
+      ],
+      "question": "¿Te cambiarías el nombre?",
+      "answers": [
+        "Ni de coña, lo que pone en mi DNI se queda en el DNI",
+        "Todo sea por triunfar",
+        "Podría cambiarme el apellido como mucho"
+      ]
+    },
+    {
+      "number": "08",
+      "taglines": [
+        "",
+        ""
+      ],
+      "question": "Si te rechazo, ¿qué va a ser de tu vida?",
+      "answers": [
+        "Me entierro en helado y torreznos",
+        "Chupito de Larios y palante",
+        "Te regalo un jamón bueno y ya verás cómo no me rechazas"
+      ]
+    },
+    {
+      "number": "09",
+      "taglines": [
+        "A ver cómo vamos de lealtad.",
+        ""
+      ],
+      "question": "¿Abandonarías a una repre como yo cuando llegues a la cima artística?",
+      "answers": [
+        "Jamás, contigo hasta la sepultura",
+        "Hombre, si otro me ofrece un Almodóvar, me lo pienso",
+        "Ya lo he hecho. Mira en “Spam”"
+      ]
+    },
+    {
+      "number": "10",
+      "taglines": [
+        "",
+        "Porque conmigo, cariñete, lo vas a conseguir."
+      ],
+      "question": "¿Adónde me llevarías de vacaciones si consigues el Goya?",
+      "answers": [
+        "A Navarrete en un Ford Escort del 98, Paquita",
+        "Tú escoges destino",
+        "A Bali a por un surfer buenorro"
+      ]
+    }
+  ],
+  "results": [
+    {
+      "className": "f1",
+      "name": "final-a",
+      "title": "Uy no, no. No eres artista 360",
+      "paragraphs": [
+        "Hay cosas que, cuando no son, no son.",
+        "Yo estoy buscando una estrella, alguien que se desenvuelva bien en todos los aspectos. Necesito una mezcla entre un Bardem en Jamón, Jamón, un Rovira con los vascos o el glamour de las Kardashians.",
+        "Te vas a hacer ‘famous’, como dicen en L.A., igual incluso más que Maca, mira qué te digo.",
+        "Besetes."
+      ],
+      "btn": "./images/shared/sign.png"
+    },
+    {
+      "className": "f2",
+      "name": "final-b",
+      "title": "Enhorabuena amorcete, eres un artista 360",
+      "paragraphs": [
+        "Estás dentro PS Management, cielete.",
+        "Vas a cumplir tu sueño y nos vamos a hacer de oro. Vete pensando qué te pones para los Goya que igual vamos el año que viene. Pero nada de ir en plan hipster, eh, que el glamour se tiene que llevar con clase.",
+        "Puedes marcharte, pero antes ¿te puedo pedir un favorcito?",
+        "Compárteme esto con todos tus amigos porque siempre se necesita una repre y aquí tienes una que vale por dos, literal y metafóricamente.",
+        "Besetes."
+      ],
+      "btn": "./images/shared/sign.png"
+    }
+  ]
+}
