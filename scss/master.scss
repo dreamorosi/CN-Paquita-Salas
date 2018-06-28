@@ -1,0 +1,379 @@
+@import 'variables';
+@import 'reboot';
+@import 'fonts';
+
+@import 'header';
+
+%master-section {
+  min-height: calc(100vh - #{$header-size});
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  p {
+    font-family: 'American Typewriter', monospace;
+    text-align: right;
+    font-size: 24px;
+    line-height: 24px;
+    color: $white;
+    font-weight: 400;
+
+    strong {
+      font-weight: 600;
+    }
+  }
+}
+
+%pregunta-header {
+  & > span {
+    display: inline-block;
+    position: relative;
+  }
+
+  & > span:before, & > span:after {
+    content: "";
+    position: absolute;
+    height: 15px;
+    border-bottom: 1px solid $white;
+    top: 0;
+    width: 300px;
+  }
+
+  & > span:before {
+    right: 100%;
+    margin-right: 15px;
+  }
+
+  & > span:after {
+    left: 100%;
+    margin-left: 15px;
+  }
+}
+
+%master-pregunta {
+  display: flex;
+  & > p {
+    color: $black;
+    width: 365px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-align: center;
+    padding: 30px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+    &:nth-child(2) {
+      margin: 0 20px;
+    }
+  }
+}
+
+section#content.variant-a {
+  @extend %master-section;
+  background-image: url('../images/inicio/background.png');
+
+  div {
+    width: 50%;
+    height: calc(100vh - #{$header-size});
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:first-child {
+    }
+
+    &:last-child {
+      flex-direction: column;
+    }
+  }
+
+  p {
+    max-width: 450px;
+  }
+
+  img {
+    cursor: pointer;
+  }
+}
+
+section#content.variant-b {
+  @extend %master-section;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  & > p:first-of-type {
+    @extend %pregunta-header;
+  }
+
+  & > h2:first-of-type {
+    color: $white;
+    font-size: 75px;
+    text-align: center;
+    line-height: normal;
+    font-family: 'Bodoni Oldstyle', cursive;
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+
+  & > h3 {
+    color: $white;
+    font-size: 20px;
+    line-height: normal;
+    font-family: 'Bodoni Oldstyle', cursive;
+    font-style: italic;
+    min-height: 25px;
+
+    &:nth-of-type(2) {
+      margin-bottom: 35px;
+    }
+  }
+
+  .options {
+    @extend %master-pregunta;
+  }
+
+  & > hr {
+    background: $white;
+    border: none;
+    height: 1px;
+    width: 775px;
+  }
+
+  & > button {
+    font-family: 'American Typewriter', monospace;
+    text-align: right;
+    font-size: 24px;
+    line-height: 24px;
+    color: $white;
+    font-weight: 400;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    margin: 50px 0 20px;
+  }
+
+  & > img {
+    width: 100px;
+  }
+
+  &.p1 {
+    background-image: url('../images/preg-01/background.png');
+
+    .options > p:nth-child(1) {
+      background-image: url('../images/preg-01/option-01.png');
+    }
+
+    .options > p:nth-child(2) {
+      background-image: url('../images/preg-01/option-02.png');
+    }
+
+    .options > p:nth-child(3) {
+      background-image: url('../images/preg-01/option-03.png');
+    }
+  }
+
+  &.p2 {
+    background-image: url('../images/preg-01/background.png');
+
+    .options > p:nth-child(1) {
+      background-image: url('../images/preg-02/option-01.png');
+    }
+
+    .options > p:nth-child(2) {
+      background-image: url('../images/preg-02/option-02.png');
+    }
+
+    .options > p:nth-child(3) {
+      background-image: url('../images/preg-02/option-03.png');
+    }
+  }
+
+  &.p3 {
+    background-image: url('../images/preg-01/background.png');
+
+    .options > p:nth-child(1) {
+      background-image: url('../images/preg-03/option-01.png');
+    }
+
+    .options > p:nth-child(2) {
+      background-image: url('../images/preg-03/option-02.png');
+    }
+
+    .options > p:nth-child(3) {
+      background-image: url('../images/preg-03/option-03.png');
+    }
+  }
+
+  &.p4 {
+    background-image: url('../images/preg-01/background.png');
+
+    .options > p:nth-child(1) {
+      background-image: url('../images/preg-04/option-01.png');
+    }
+
+    .options > p:nth-child(2) {
+      background-image: url('../images/preg-04/option-02.png');
+    }
+
+    .options > p:nth-child(3) {
+      background-image: url('../images/preg-04/option-03.png');
+    }
+  }
+
+  &.p5 {
+    background-image: url('../images/preg-05/background.png');
+
+    .options > p:nth-child(1) {
+      background-image: url('../images/preg-05/option-01.png');
+    }
+
+    .options > p:nth-child(2) {
+      background-image: url('../images/preg-05/option-02.png');
+    }
+
+    .options > p:nth-child(3) {
+      background-image: url('../images/preg-05/option-03.png');
+    }
+  }
+
+  &.p6 {
+    background-image: url('../images/preg-05/background.png');
+
+    & > h2 {
+      font-size: 65px;
+    }
+
+    .options > p:nth-child(1) {
+      background-image: url('../images/preg-06/option-01.png');
+    }
+
+    .options > p:nth-child(2) {
+      background-image: url('../images/preg-06/option-02.png');
+    }
+
+    .options > p:nth-child(3) {
+      background-image: url('../images/preg-06/option-03.png');
+    }
+  }
+
+  &.p7 {
+    background-image: url('../images/preg-05/background.png');
+
+    .options > p:nth-child(1) {
+      background-image: url('../images/preg-07/option-01.png');
+    }
+
+    .options > p:nth-child(2) {
+      background-image: url('../images/preg-07/option-02.png');
+    }
+
+    .options > p:nth-child(3) {
+      background-image: url('../images/preg-07/option-03.png');
+    }
+  }
+
+  &.p8 {
+    background-image: url('../images/preg-08/background.png');
+
+    .options > p:nth-child(1) {
+      background-image: url('../images/preg-08/option-01.png');
+    }
+
+    .options > p:nth-child(2) {
+      background-image: url('../images/preg-08/option-02.png');
+    }
+
+    .options > p:nth-child(3) {
+      background-image: url('../images/preg-08/option-03.png');
+    }
+  }
+
+  &.p9 {
+    background-image: url('../images/preg-08/background.png');
+
+    & > h2 {
+      font-size: 40px;
+    }
+
+    .options > p:nth-child(1) {
+      background-image: url('../images/preg-09/option-01.png');
+    }
+
+    .options > p:nth-child(2) {
+      background-image: url('../images/preg-09/option-02.png');
+    }
+
+    .options > p:nth-child(3) {
+      background-image: url('../images/preg-09/option-03.png');
+    }
+  }
+
+  &.p10 {
+    background-image: url('../images/preg-08/background.png');
+
+    & > h2 {
+      font-size: 45px;
+    }
+
+    .options > p:nth-child(1) {
+      background-image: url('../images/preg-10/option-01.png');
+    }
+
+    .options > p:nth-child(2) {
+      background-image: url('../images/preg-10/option-02.png');
+    }
+
+    .options > p:nth-child(3) {
+      background-image: url('../images/preg-10/option-03.png');
+    }
+  }
+}
+
+section#content.variant-c {
+  @extend %master-section;
+
+  div {
+    width: 50%;
+    height: calc(100vh - #{$header-size});
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:first-child {
+    }
+
+    &:last-child {
+      flex-direction: column;
+
+      img {
+        width: 150px;
+        position: relative;
+        left: 150px;
+      }
+    }
+  }
+
+  p {
+    width: 450px;
+  }
+
+  & > img {
+    cursor: pointer;
+    position: absolute;
+    bottom: 100px;
+    left: calc(50vw + calc(100px / 2));
+  }
+
+  &.f1 {
+    background-image: url('../images/final-a/background.png');
+  }
+
+  &.f2 {
+    background-image: url('../images/final-b/background.png');
+  }
+}

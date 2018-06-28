@@ -1,0 +1,27 @@
+header {
+  background: $black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: $header-size;
+  padding: 5px;
+
+  a {
+    height: 100%;
+
+    &:first-child {
+      border-right: 1px solid $white;
+      padding-right: 15px;
+    }
+
+    &:last-child {
+      padding-left: 15px;
+    }
+
+    img {
+      height: 100%;
+      position: relative;
+      top: -3px;
+    }
+  }
+}

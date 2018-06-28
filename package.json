@@ -1,0 +1,16 @@
+{
+  "name": "paquita",
+  "author": "Andrea Amorosi",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^4.9.0",
+    "webpack": "^4.12.2",
+    "webpack-cli": "^3.0.8"
+  },
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  }
+}
