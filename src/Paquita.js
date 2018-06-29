@@ -67,7 +67,7 @@ class Paquita extends React.Component {
             <p onClick={e => this.handleAnswer()}>{answers[2]}</p>
           </div>
           <hr />
-          <button type='button' name='button' onClick={e => this.handleAnswer()}>{current < 9 ? 'Saltar a la siguente pregunta' : 'Ir a la respuesta final'}</button>
+          <button type='button' name='button' onClick={e => this.handleAnswer()}>{current < 10 ? 'Saltar a la siguente pregunta' : 'Ir a la respuesta final'}</button>
           <hr />
           <img src='./images/shared/logo-down.png' alt='Paquita Salas' />
         </section>
